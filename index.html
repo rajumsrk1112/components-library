@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>sai's component library</h1>
+    <h1>Sai's component library</h1>
     <p>This page is all about commonly used HTML and CSS components.</p>
     <hr>
     <!-- typography -->
@@ -15,19 +16,20 @@
     <h1>Largest Heading - h1 tag</h1>
     <h2>2nd largest heading - h2 tag</h2>
     <p>normal paragraph text - p tag</p>
+    <p>Paragraph with some <strong>bold</strong> text</p>
     <small>smaller text than paragraph tag - small tag</small>
     <hr>
     <!-- containers -->
     <h2>@container's</h2>
     <h3>Fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <div class="container container-fluid">This is a fluid container and it will go till the end of the page</div>
     <h3>center container</h3>
-    <div>This is a center container and it will go till the specified width</div>
+    <div class="container container-center">This is a center container and it will go till the specified width</div>
     <hr>
     <!-- Links -->
     <h2>@links</h2>
-    <a href="#">Primary link</a>
-    <a href="#">Secondary Link</a>
+    <a class="link primary-link" href="#">Primary link</a>
+    <a class="link secondary-link" href="#">Secondary Link</a>
     <hr>
     <!--Lists  -->
     <h2>@lists</h2>
@@ -76,6 +78,7 @@
             <li>Item 3</li>
         </ul>
     </footer>
+    <hr>
     <div style="height: 20vh;"></div>
 </body>
 </html>
