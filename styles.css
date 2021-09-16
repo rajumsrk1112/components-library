@@ -38,3 +38,37 @@ hr{
     border-radius: 0.5rem;
     color: var(--primary-color);
 }
+
+.non-bullet {
+    list-style-type: none;
+}
+
+.list-item {
+    display: inline;
+    padding:0rem 1rem;
+}
+
+.nav-bar {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.nav-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-bar a {
+    color: white;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.active-link {
+    font-weight: bold;
+}
