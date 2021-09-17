@@ -57,25 +57,30 @@
     <hr>
     <!-- header -->
     <h2>@header</h2>
-    <header>
-        <img src="images/react-js.svg" alt="react icon" style="width: 100px;">
-        <h2>Im header heading</h2>
+    <header class="hero">
+        <img class="hero-img" src="images/react-js.svg" alt="react icon">
+        <h2 class="hero-heading">Im  <span class="hero-highlight">header</span> heading</h2>
     </header>
     <hr>
     <!-- section -->
     <h2>@section</h2>
     <section>
-        This one will have blue background
+        <h1>white section</h1>
+        <div class="container container-center"><p>Last month we removed a bunch of content from MDN. MDN is 16 years old (and yes it can drink in some countries), all that time ago it was a great place for all of Mozilla to document all of their things. As MDN evolved and the web reference became our core content, other areas became less relevant to the overall site. We have ~11k active pages on MDN, so keeping them up to date is a big task and we feel our focus should be there.The post Spring cleaning MDN: Part 2 appeared first on Mozilla Hacks - the Web developer blog.</p></div>
+    </section>
+    <section class="gray-section container-center container">
+        <h1>off-white section</h1>
+        <p>August is already here, which means so is Firefox 91! For developers, Firefox 91 supports the Visual Viewport API and Intl.DateTimeFormat object additions.The post Hopping on Firefox 91 appeared first on Mozilla Hacks - the Web developer blog.</p>
     </section>
     <hr>
     <!-- footer -->
     <h2>@footer</h2>
-    <footer>
+    <footer class="footer container">
         <div>Some content inside footer</div>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+        <ul class="non-bullet">
+            <li class="list-item"><a class="primary-link" href="#">Item One</a class="primary-link"></li>
+            <li class="list-item"><a class="primary-link" href="#">Item Two</a class="primary-link"></li>
+            <li class="list-item"><a class="primary-link" href="#">Item Three</a></li>
         </ul>
     </footer>
     <hr>

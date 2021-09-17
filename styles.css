@@ -6,6 +6,8 @@ body {
 
 :root {
     --primary-color: blue;
+    --secondary-color:#831843;
+    --off-white:#FCE7F3
 }
 
 hr{
@@ -31,6 +33,7 @@ hr{
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+    text-decoration: none;
 }
 
 .secondary-link {
@@ -71,4 +74,47 @@ hr{
 
 .active-link {
     font-weight: bold;
+}
+
+
+/* hero */
+
+.hero{
+    padding:1rem 0rem;
+}
+
+.hero .hero-img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero-highlight {
+    color: var(--secondary-color);
+}
+
+section h1 {
+    text-align: center;
+}
+
+.gray-section {
+    background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem 0rem;
+}
+
+.footer div {
+    font-size: 2rem;
+    color: white;
 }
